@@ -36,6 +36,17 @@ GRANT ALL PRIVILEGES ON DATABASE shoppinglyx TO shoppinglyxuser;
 ```
 
 
+DB_ENGINE=django.db.backends.postgresql
+
+DB_NAME=shoppinglyx
+DB_USER=shoppinglyxuser
+DB_PASSWORD=password
+DB_HOST=localhost
+DB_PORT=5432
+
+
+
+
 ```
 
 
