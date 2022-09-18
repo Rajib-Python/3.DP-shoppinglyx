@@ -93,10 +93,10 @@ DATABASES = {
         'ENGINE': config('DB_ENGINE'),
         'NAME': BASE_DIR / config('DB_NAME'),
 
-        # 'USER': config('DB_USER'),
-        # 'PASSWORD' : config('DB_PASSWORD'),
-        # 'HOST': config('DB_HOST'),
-        # 'PORT': config('DB_PORT'),
+        #'USER': config('DB_USER'),
+        #'PASSWORD' : config('DB_PASSWORD'),
+        #'HOST': config('DB_HOST'),
+        #'PORT': config('DB_PORT'),
     }
 }
 
