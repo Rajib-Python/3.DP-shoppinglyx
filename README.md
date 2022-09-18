@@ -47,14 +47,8 @@ DB_PASSWORD=password
 DB_HOST=localhost
 DB_PORT=5432
 
-
-
-
 ```
 
-
-
-```
 
 
 ### Step 3 — Creating a Python Virtual Environment for your Project
@@ -64,12 +58,17 @@ sudo -H pip3 install --upgrade pip
 sudo -H pip3 install virtualenv
 sudo -H pip install --upgrade pip
 
+```
+
+```
 
 virtualenv venv
 source venv/bin/activate
 pip install django gunicorn psycopg2-binary
 
+```
 
+```
 cd shoppinglyx
 python manage.py createsuperuser
 python3 manage.py collectstatic
