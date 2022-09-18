@@ -36,6 +36,9 @@ GRANT ALL PRIVILEGES ON DATABASE shoppinglyx TO shoppinglyxuser;
 ```
 
 
+
+```
+
 DB_ENGINE=django.db.backends.postgresql
 
 DB_NAME=shoppinglyx
